@@ -6,3 +6,6 @@ INSERT INTO destinos (id, nome, descricao) VALUES
 
 INSERT INTO reservas (id, id_usuario, id_destino, status, data) VALUES
 	(1, 1, 1, 'Pendente', '2024,05-28');
+
+INSERT INTO reservas (id, id_usuario, id_destino, status, data) VALUES
+	(2, 3, 3, 'Confirmada', '2024,05-28');
