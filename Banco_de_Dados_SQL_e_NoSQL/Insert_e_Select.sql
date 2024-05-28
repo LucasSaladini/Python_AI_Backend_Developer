@@ -24,3 +24,25 @@ INSERT INTO reservas (id, id_usuario,  id_destino, data, status) VALUES
     (1, 1, 2, '2023-07-10', 'Confirmada'),
     (2, 2, 1, '2023-08-05', 'Pendente'),
     (3, 3, 3, '2023-09-20', 'Cancelada');
+
+
+
+
+
+
+
+
+
+
+
+
+
+SELECT * FROM usuarios;
+SELECT * FROM reservas;
+SELECT * FROM destinos;
+
+SELECT * FROM usuarios
+WHERE id = 1 AND nome LIKE "%Lucas%";
+
+SELECT * FROM usuarios
+WHERE id = 1 OR nome LIKE "%Maria%";
